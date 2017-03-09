@@ -1,0 +1,10 @@
+@import '../common/colors';
+@import '../common/typography';
+
+.Navigation {
+  height: calc(100vh - 64px);
+  overflow-y: scroll;
+  padding:0 !important;
+}
+
+

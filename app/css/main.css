@@ -1,0 +1,32 @@
+@import 'settings';
+@import 'common/layout';
+@import 'common/typography';
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
+
+body {
+  margin: 0;
+  font-family: var(--fontMontserrat);
+}
+
+.Grid{
+	padding: 0 !important;
+}
+
+.PaddedCell{
+	padding: 16px;
+	height: calc(100vh - 64px); /*height of app bar*/
+  overflow-y: scroll;
+}
+
+
+/* Add your global styles below... */
+
+/* ex:
+
+:global {
+  & .red { color: red; }
+  & .blue { color: blue; }
+}
+
+*/

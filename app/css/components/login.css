@@ -1,0 +1,49 @@
+@import '../settings';
+@import '../common/typography';
+@import '../common/colors';
+@import '../common/button';
+@import '../common/input';
+
+
+
+.waiting {
+  .loading {
+    display: block;
+  }
+}
+
+.alternative {
+  background: var(--colorWhite);
+  padding: 12px 8px;
+  font-size: var(--fontMedium);
+  text-align: center;
+}
+
+.alternative-link {
+  color: var(--colorDodgerBlue);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.loading {
+  display: none;
+  text-align: center;
+  margin: 24px auto;
+}
+
+.email-container {
+  padding: 16px 12px;
+}
+
+.heading {
+  padding: 16px 12px;
+  text-align: center;
+}
+
+.message {
+  color: var(--md-red-500);
+}
+
+.button {
+  @apply --greenButton;
+}
