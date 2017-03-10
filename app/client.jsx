@@ -8,8 +8,8 @@ import * as types from './types';
 import configureStore from './store/configureStore';
 import fetchDataForRoute from './utils/fetchDataForRoute';
 
-//Material UI for client rendering
 
+//Material UI for client rendering
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
 import { theme } from '../config/theme';
 import injectTapEventPlugin from 'react-tap-event-plugin';
